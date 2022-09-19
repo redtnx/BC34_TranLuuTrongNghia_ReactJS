@@ -4,6 +4,9 @@ import DemoComponent from "./component/demobuoimot/DemoComponent";
 import DemoState from "./component/demo_state/DemoState";
 import CarBasic from "./component/bt_carbasic/CarBasic";
 import Movie from "./component/bt_movie/Movie";
+import DemoProps from "./component/demo_props/DemoProps";
+import ChildProps from "./component/demo_props/ChildProps";
+import TrangChuSP from "./component/bt_phone/TrangChuSP";
 
 function App() {
   return (
@@ -14,7 +17,9 @@ function App() {
       {/* {<DemoState />} */}
 
       {/* {<CarBasic />} */}
-      {<Movie />}
+      {/* {<Movie />} */}
+      {/* <DemoProps /> */}
+      <TrangChuSP />
     </div>
   );
 }
